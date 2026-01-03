@@ -16,6 +16,7 @@ services:
         DB_DATABASE: gameap
         DB_USERNAME: gameap
         DB_PASSWORD: gameap
+        AUTH_SECRET: DivSovieVdGs@dY
     depends_on:
           - db
   db:
